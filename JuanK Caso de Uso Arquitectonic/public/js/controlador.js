@@ -1,6 +1,6 @@
 'use strict';
 
-//Programar está.
+//Programar .
 imprimirListaProfesor();
 
 let botonRegistrar = document.querySelector('#btnRegistrar');

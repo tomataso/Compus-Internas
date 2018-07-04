@@ -11,11 +11,17 @@ function GuardarProfesor(paInfoProfesor){
         async : false,
         data:{
             NombreProfesor : paInfoProfesor[0],
-            ApellidoProfesor : InfoProfesor[1],
-            CedulaProfesor : InfoProfesor[2],
-            TelefonoProfesor : InfoProfesor[3],
-            GradoAcademicoProfesor: InfoProfesor[4],
-            EmailProfesor: InfoProfesor[5]
+            ApellidoProfesor : paInfoProfesor[1],
+            CedulaProfesor : paInfoProfesor[2],
+            TelefonoProfesor : paInfoProfesor[3],
+            GradoAcademicoProfesor: paInfoProfesor[4],
+            CorreoElectronicoProfesor: paInfoProfesor[5],
+            ProvinciaProfesor: paInfoProfesor[6],
+            CantonProfesor : paInfoProfesor[7],
+            DistritoProfesor: paInfoProfesor[8],
+            DireccionExactaProfesor: paInfoProfesor[9],
+            AnnosExperienciaProfesor: paInfoProfesor[10],
+            CursosImpartidosProfesor: paInfoProfesor[11]
         }
       });
     

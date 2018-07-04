@@ -43,9 +43,9 @@ app.use( function(req, res, next) {
   });
 
 // REVISAR CAMBIO 
-const clients = require('./components/clients/clients.route');
+const profesors = require('./components/profesors/profesors.route');
 
-app.use('/api', clients);
+app.use('/api', profesors);
 
 module.exports = app;
 

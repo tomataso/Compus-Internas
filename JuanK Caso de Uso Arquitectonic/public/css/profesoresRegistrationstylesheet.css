@@ -8,7 +8,6 @@ html{
 }
 
 
-
 .registroDatos {
     width: 50%;
     height: 50%;
@@ -18,6 +17,8 @@ html{
     display: inline-block;
 }
 
+
+
 .input {
     text-align: center;
 }
@@ -26,17 +27,13 @@ html{
     background-color: transparent;
     width: 250px;
     margin-left: 3%;
-    
     border-bottom: 1px solid #b5bdce;
     color: rgb(0, 0, 0);
     font-size: 16px;
-    
-   
   }
 
 
 .botones {
-
     text-align: right;
     padding-right:3%; 
     padding-top: 5%;
@@ -44,17 +41,56 @@ html{
 }
 
 .linea{
-
     width: 100%;
     padding-top: 2%;
-   
     margin-bottom: 3%;
     border-bottom: 3px solid black;
-   
-
-    
     }
 
     .NombrePLabel {
-margin-right: 25px;
+    margin-right: 25px;
     }
+
+    .ApellidoPLabel {
+    margin-right: 25px;
+   }
+
+   .CedulaLabel {
+    margin-right: 122px;
+   }
+
+   .TelefonoLabel {
+    margin-right: 112px;
+   }
+
+   .CorreoELabel {
+    margin-right: 42px;
+   }
+
+   .ProvinciaLabel {
+    margin-right: 122px;
+   }
+
+   .CantonLabel {
+    margin-right: 120px;
+   }
+
+   .DistritoLabel {
+    margin-right: 122px;
+   }
+
+   .DireccionExactaLabel{
+    margin-right: 51px;
+   }
+
+   .GradoAcademicoLabel{
+    margin-right: 43px;
+   }
+
+   .AnnosExperienciaLabel{
+    margin-right: 24px;
+   }
+
+   .CursosImpartidosLabel{
+    margin-right: 41px;
+   }

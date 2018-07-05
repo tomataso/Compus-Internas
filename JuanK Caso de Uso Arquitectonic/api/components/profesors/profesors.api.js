@@ -4,6 +4,7 @@ const profesorsModel = require('./profesors.model');
 
 module.exports.registrar = function(req, res){
     let nuevoProfesor = new profesorsModel({
+        
         NombreProfesor : req.body.NombreProfesor,
         ApellidoProfesor : req.body.ApellidoProfesor,
         CedulaProfesor : req.body.CedulaProfesor,
@@ -12,7 +13,7 @@ module.exports.registrar = function(req, res){
         CorreoElectronicoProfesor : req.body.CorreoElectronicoProfesor, 
         
         ProvinciaProfesor: req.body.ProvinciaProfesor,
-        CantonProfesor : req.body.CantonProfesor,
+        CantonProfesor: req.body.CantonProfesor,
         DistritoProfesor: req.body.DistritoProfesor,
         DireccionExactaProfesor: req.body.DireccionExactaProfesor,
         AnnosExperienciaProfesor: req.body.AnnosExperienciaProfesor,

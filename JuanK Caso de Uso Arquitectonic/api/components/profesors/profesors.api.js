@@ -17,7 +17,7 @@ module.exports.registrar = function(req, res){
         DistritoProfesor: req.body.DistritoProfesor,
         DireccionExactaProfesor: req.body.DireccionExactaProfesor,
         AnnosExperienciaProfesor: req.body.AnnosExperienciaProfesor,
-        CursosImpartidosProfesor: req.body.ursosImpartidosProfesor
+        CursosImpartidosProfesor: req.body.CursosImpartidosProfesor
 
     });
 

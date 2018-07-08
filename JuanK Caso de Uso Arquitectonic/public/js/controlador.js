@@ -145,13 +145,7 @@ function validar() {
     }
 
 
-    //Validación del  CantonProfesor
-    if (inputCantonProfesor.value == '') {
-        inputCantonProfesor.classList.add('error_input');
-        bError = true;
-    } else {
-        inputCantonProfesor.classList.remove('error_input');
-    }
+
 
 
     //Validación del  DistritoProfesor
